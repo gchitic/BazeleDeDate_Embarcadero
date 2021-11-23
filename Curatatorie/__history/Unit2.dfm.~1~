@@ -1,0 +1,16 @@
+object dm: Tdm
+  OldCreateOrder = False
+  Height = 285
+  Width = 449
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=CURATATORIE'
+      'Server=DESKTOP-R8H0JSQ'
+      'OSAuthent=Yes'
+      'DriverID=MSSQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 32
+    Top = 16
+  end
+end

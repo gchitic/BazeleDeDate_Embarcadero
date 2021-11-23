@@ -1,0 +1,213 @@
+object dm: Tdm
+  OldCreateOrder = False
+  Height = 282
+  Width = 494
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=MAGAZIN'
+      'Server=DESKTOP-R8H0JSQ'
+      'OSAuthent=Yes'
+      'DriverID=MSSQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 32
+    Top = 8
+  end
+  object QUM: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT *'
+      'FROM UNIT_MASURA')
+    Left = 104
+    Top = 8
+  end
+  object DSQUM: TDataSource
+    DataSet = QUM
+    Left = 168
+    Top = 8
+  end
+  object QProdus: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT * FROM PRODUSE')
+    Left = 104
+    Top = 64
+  end
+  object DSQProdus: TDataSource
+    DataSet = QProdus
+    Left = 168
+    Top = 64
+  end
+  object FDStoredProc1: TFDStoredProc
+    Connection = FDConnection1
+    StoredProcName = 'MAGAZIN.dbo.FACTURA'
+    Left = 40
+    Top = 136
+    ParamData = <
+      item
+        Position = 1
+        Name = '@RETURN_VALUE'
+        DataType = ftInteger
+        ParamType = ptResult
+      end
+      item
+        Position = 2
+        Name = '@D'
+        DataType = ftDate
+        ParamType = ptInput
+      end
+      item
+        Position = 3
+        Name = '@N'
+        DataType = ftString
+        ParamType = ptInput
+        Size = 20
+      end
+      item
+        Position = 4
+        Name = '@E'
+        DataType = ftString
+        ParamType = ptInput
+        Size = 100
+      end>
+  end
+  object QLiber: TFDQuery
+    Connection = FDConnection1
+    Left = 104
+    Top = 136
+  end
+  object QReceptie: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      
+        'SELECT FR.*,R.*,OP.NUME+'#39' '#39'+OP.PRENUME AS OPERATOR,P.DENUMIRE AS' +
+        ' PRODUS,P.COD_PRODUS,UM.ABREVIERE '
+      
+        'FROM FACTURA_REC FR INNER JOIN RECEPTIE R ON R.FACTURA_REC_ID=FR' +
+        '.FACTURA_REC_ID'
+      
+        #9#9#9#9#9'INNER JOIN UNIT_MASURA UM ON UM.UNIT_MASURA_ID=R.UNIT_MASUR' +
+        'A_ID'
+      #9#9#9#9#9'INNER JOIN OPERATOR OP ON OP.OPERATOR_ID=R.OPERATOR_ID'
+      #9#9#9#9#9'INNER JOIN PRODUSE P ON P.PRODUSE_ID=R.PRODUSE_ID'
+      'WHERE FR.FACTURA_REC_ID=:FACTURA_REC_ID ')
+    Left = 112
+    Top = 200
+    ParamData = <
+      item
+        Name = 'FACTURA_REC_ID'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = Null
+      end>
+  end
+  object DSQReceptie: TDataSource
+    DataSet = QReceptie
+    Left = 168
+    Top = 200
+  end
+  object QVanzare: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      ''
+      
+        'SELECT FR.* , R.* , V.* , C.* , OP.NUME+'#39' '#39'+OP.PRENUME AS OPERAT' +
+        'OR,P.DENUMIRE AS PRODUS , P.COD_PRODUS , UM.ABREVIERE,'
+      #9#9'CL.NUME+'#39' '#39'+CL.PRENUME AS CLIENT , D.NUME AS DISC , D.VALOAREA'
+      
+        'FROM FACTURA_REC FR INNER JOIN RECEPTIE R ON R.FACTURA_REC_ID=FR' +
+        '.FACTURA_REC_ID'
+      
+        #9#9#9#9#9'INNER JOIN UNIT_MASURA UM ON UM.UNIT_MASURA_ID=R.UNIT_MASUR' +
+        'A_ID'
+      #9#9#9#9#9'INNER JOIN OPERATOR OP ON OP.OPERATOR_ID=R.OPERATOR_ID'
+      #9#9#9#9#9'INNER JOIN PRODUSE P ON P.PRODUSE_ID=R.PRODUSE_ID'
+      #9#9#9#9#9'INNER JOIN VANZARE V ON V.RECEPTIE_ID=R.RECEPTIE_ID'
+      #9#9#9#9#9'INNER JOIN CEC C ON C.CEC_ID=V.CEC_ID'
+      #9#9#9#9#9'INNER JOIN CLIENT CL ON CL.CLIENT_ID=C.CLIENT_ID'
+      #9#9#9#9#9'INNER JOIN DISCOUNT D ON D.DISCOUNT_ID=CL.DISCOUNT_ID'
+      'WHERE C.CEC_ID=:CEC_ID')
+    Left = 256
+    Top = 8
+    ParamData = <
+      item
+        Name = 'CEC_ID'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = Null
+      end>
+  end
+  object DSQVanzare: TDataSource
+    DataSet = QVanzare
+    Left = 312
+    Top = 8
+  end
+  object PROCCEX: TFDStoredProc
+    Connection = FDConnection1
+    StoredProcName = 'MAGAZIN.dbo.CEK'
+    Left = 392
+    Top = 80
+    ParamData = <
+      item
+        Position = 1
+        Name = '@RETURN_VALUE'
+        DataType = ftInteger
+        ParamType = ptResult
+      end
+      item
+        Position = 2
+        Name = '@OPER'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Position = 3
+        Name = '@CLIENT'
+        DataType = ftInteger
+        ParamType = ptInput
+      end
+      item
+        Position = 4
+        Name = '@FIRMA'
+        DataType = ftInteger
+        ParamType = ptInput
+      end>
+  end
+  object QLiber2: TFDQuery
+    Connection = FDConnection1
+    Left = 152
+    Top = 136
+  end
+  object QCec: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      
+        'SELECT * FROM CEC WHERE OPERATOR_ID=:OPERATOR_ID AND DATA_CEC BE' +
+        'TWEEN :D1 AND :D2')
+    Left = 256
+    Top = 88
+    ParamData = <
+      item
+        Name = 'OPERATOR_ID'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'D1'
+        DataType = ftDate
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'D2'
+        DataType = ftDate
+        ParamType = ptInput
+        Value = Null
+      end>
+  end
+  object DSQCec: TDataSource
+    Left = 320
+    Top = 96
+  end
+end

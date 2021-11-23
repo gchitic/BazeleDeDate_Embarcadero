@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.330,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.531,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Autentificare.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Unit5.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.797,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.330,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.451,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.964,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.330,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.701,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.011,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Unit5.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Autentificare.dfm=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Unit5.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.879,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Autentificare.cpp=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Unit5.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.831,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\MAGAZIN\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.652,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>

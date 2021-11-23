@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.377,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.298,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.452,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\ModifyPage1.dfm=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.886,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.835,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Rapoarte.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.452,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\ModifyPage1.cpp=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.046,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Modify.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.046,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Modify.dfm=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.305,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.642,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.908,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.cpp=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Logarea.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.897,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.211,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.451,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.133,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,C:\Users\User\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.908,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.dfm=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Logarea.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.951,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit2.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Cautare.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.560,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.452,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\ModifyPage1.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.218,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit2.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\ComandaNoua.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.951,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit2.cpp=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Cautare.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.218,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit2.cpp=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\ComandaNoua.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.340,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.565,=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.835,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Rapoarte.cpp=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.835,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Rapoarte.dfm=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.046,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Modify.cpp=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.218,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit2.dfm=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\ComandaNoua.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.951,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit2.dfm=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Cautare.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.139,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.652,=C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.908,D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Unit3.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Logarea.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.403,C:\Users\User\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\G\IT\Teoria Bazelor De Date\Embarcadero\Curatatorie\Project1PCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>

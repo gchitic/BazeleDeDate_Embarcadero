@@ -1,0 +1,107 @@
+object dm: Tdm
+  OldCreateOrder = False
+  Height = 285
+  Width = 449
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=CURATATORIE'
+      'Server=DESKTOP-R8H0JSQ'
+      'OSAuthent=Yes'
+      'DriverID=MSSQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 32
+    Top = 16
+  end
+  object QMAIN: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT * '
+      'FROM COMANDA C INNER JOIN CLIENT CC ON C.CLIENT_ID=CC.CLIENT_ID')
+    Left = 112
+    Top = 24
+  end
+  object DSQMAIN: TDataSource
+    DataSet = QMAIN
+    Left = 168
+    Top = 24
+  end
+  object QLiber: TFDQuery
+    Connection = FDConnection1
+    Left = 120
+    Top = 88
+  end
+  object QComand: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      
+        'INSERT INTO COMANDA(DENUMIRE,CANTITATE,SPALAT,CALCAT,DATA_INREG,' +
+        'DATA_INTOARC,CLIENT_ID,OPERATOR_ID,PRET,ACTIV)'
+      
+        'VALUES(:DENUMIRE,:CANTITATE,:SPALAT,:CALCAT,:DATA_INREG,:DATA_IN' +
+        'TOARC,:CLIENT_ID,:OPERATOR_ID,:PRET,:ACTIV)')
+    Left = 168
+    Top = 88
+    ParamData = <
+      item
+        Name = 'DENUMIRE'
+        DataType = ftString
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'CANTITATE'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'SPALAT'
+        DataType = ftBoolean
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'CALCAT'
+        DataType = ftBoolean
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'DATA_INREG'
+        DataType = ftDate
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'DATA_INTOARC'
+        DataType = ftDate
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'CLIENT_ID'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'OPERATOR_ID'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'PRET'
+        DataType = ftFloat
+        ParamType = ptInput
+        Value = Null
+      end
+      item
+        Name = 'ACTIV'
+        DataType = ftBoolean
+        ParamType = ptInput
+        Value = Null
+      end>
+  end
+end
